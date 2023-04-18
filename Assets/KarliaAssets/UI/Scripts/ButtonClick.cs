@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ButtonClick : MonoBehaviour,IPointerDownHandler,IPointerUpHandler
 {
@@ -23,8 +24,19 @@ public class ButtonClick : MonoBehaviour,IPointerDownHandler,IPointerUpHandler
         _source.PlayOneShot(_uncompressClip);
     }
 
+    public void OpenTiktok()
+    {
+        Application.OpenURL("https://vt.tiktok.com/ZS8W9F2T2/");
+    }
+
+    public void OpenShopee()
+    {
+        Application.OpenURL("https://shope.ee/6zo5TkzDkG");
+    }
+
     public void OpenAR()
     {
-        Debug.Log("Open AR");
+        SceneManager.LoadScene(1);
+       
     }
 }

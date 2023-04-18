@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -24,6 +25,7 @@ public class TrackedImages : MonoBehaviour
 
         // Cache a reference to the Tracked Image Manager component
         _trackedImagesManager = GetComponent<ARTrackedImageManager>();
+        DontDestroyOnLoad(_trackedImagesManager);
 
     }
 
@@ -96,5 +98,10 @@ public class TrackedImages : MonoBehaviour
         }
 
 
+    }
+
+    public void backMain()
+    {
+        SceneManager.LoadScene(0);
     }
 }

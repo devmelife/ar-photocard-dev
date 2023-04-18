@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 892a86b244eb68c4f8be01359a481933
+  - enabled: 1
     path: Assets/Scenes/KarliaAR.unity
     guid: 723788ec737f8cc47befc4d2c42db18c
   m_configObjects:
