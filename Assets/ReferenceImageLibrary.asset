@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4880622236246037268
+  m_GuidHigh: 3565555255041977998
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5229417822617990030
+      m_GuidHigh: 6356168627234506428
+    m_SerializedTextureGuid:
+      m_GuidLow: 2226000785566447730
+      m_GuidHigh: 16627096479451378827
+    m_Size: {x: 0.55, y: 0.8495385}
+    m_SpecifySize: 1
+    m_Name: LS1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5384981500497959629
+      m_GuidHigh: 192949235422407297
+    m_SerializedTextureGuid:
+      m_GuidLow: 13354489528930385618
+      m_GuidHigh: 2380662993781809464
+    m_Size: {x: 0.55, y: 0.8501132}
+    m_SpecifySize: 1
+    m_Name: LS2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5177409654399841683
+      m_GuidHigh: 170525287703827355
+    m_SerializedTextureGuid:
+      m_GuidLow: 12134052251486709052
+      m_GuidHigh: 6966358504441230154
+    m_Size: {x: 0.55, y: 0.8495385}
+    m_SpecifySize: 1
+    m_Name: LS3
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4677329766023550454
+      m_GuidHigh: 5640140733872370852
+    m_SerializedTextureGuid:
+      m_GuidLow: 11521483059676314164
+      m_GuidHigh: 5203375166282043608
+    m_Size: {x: 0.55, y: 0.8495385}
+    m_SpecifySize: 1
+    m_Name: LS4
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5443395139770908023
+      m_GuidHigh: 9974698565693234598
+    m_SerializedTextureGuid:
+      m_GuidLow: 7684392916310924360
+      m_GuidHigh: 13808341277177788104
+    m_Size: {x: 0.55, y: 0.8495385}
+    m_SpecifySize: 1
+    m_Name: LS5
+    m_Texture: {fileID: 0}
